@@ -58,7 +58,7 @@
             </ul>
         </nav>
     </header>
-    <main>
+    <main id="main_content">
 
     </main>
     </div>
