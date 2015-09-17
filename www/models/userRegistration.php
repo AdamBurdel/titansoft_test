@@ -90,12 +90,12 @@ function firstUser()
     }
 
     elseif (($timeRes < 86400) and ($timeRes > 3600) ) {
-        $newTimeRes = $timeRes/60;
+        $newTimeRes = $timeRes/3600;
         $timeRes = (int)$newTimeRes;
         echo $timeRes . ' часов назад';
     }
     elseif (($timeRes < 604800) and ($timeRes > 86400) ) {
-        $newTimeRes = $timeRes/60;
+        $newTimeRes = $timeRes/86400;
         $timeRes = (int)$newTimeRes;
         echo $timeRes . ' недель назад';
     }
@@ -146,12 +146,12 @@ function lastUser()
         echo $timeRes . ' минут назад';
     }
     elseif (($timeRes < 86400) and ($timeRes > 3600) ) {
-        $newTimeRes = $timeRes/60;
+        $newTimeRes = $timeRes/3600;
         $timeRes = (int)$newTimeRes;
         echo $timeRes . ' часов назад';
     }
     elseif (($timeRes < 604800) and ($timeRes > 3600) ) {
-        $newTimeRes = $timeRes/60;
+        $newTimeRes = $timeRes/86400;
         $timeRes = (int)$newTimeRes;
         echo $timeRes . ' недель назад';
     }
